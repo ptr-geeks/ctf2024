@@ -1,0 +1,23 @@
+name: "Notes"
+author: "aJuvan"
+category: Pwn
+
+description: |
+  Take notes!
+connection_info: nc 20.8.168.205 13371
+value: 50
+type: "standard"
+
+files: 
+  - chall
+  - Dockerfile
+
+flags:
+  - ptr{Way_0u7_Of_boUnd5}
+
+tags:
+  - pwn
+  - easy
+
+state: visible
+version: "0.1"

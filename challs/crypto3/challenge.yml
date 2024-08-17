@@ -1,0 +1,22 @@
+name: "Rivest Shamir Adleman"
+author: "aJuvan"
+category: Crypto
+
+description: |
+  Witness the fall of the great Rivest Shamir Adleman!
+value: 150
+type: "standard"
+
+files: 
+  - crypto.py
+  - ciphertext.txt
+
+flags:
+  - ptr{RSA_1s_gr34T_bu7_n0t_Alw4Ys}
+
+tags:
+  - crypto
+  - medium
+
+state: visible
+version: "0.1"

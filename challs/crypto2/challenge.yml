@@ -1,0 +1,22 @@
+name: "Vision"
+author: "aJuvan"
+category: Crypto
+
+description: |
+  The new Visionary cipher will fix all of caesar's problems!
+value: 50
+type: "standard"
+
+files: 
+  - crypto.py
+  - ciphertext.txt
+
+flags:
+  - ptr{n0t_50_v1Sion4Ry_4fTer_aLL}
+
+tags:
+  - crypto
+  - easy
+
+state: visible
+version: "0.1"

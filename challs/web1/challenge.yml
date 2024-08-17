@@ -1,0 +1,23 @@
+name: "Login"
+author: "aJuvan"
+category: Web
+
+description: |
+  Can't got wrong with a login.
+connection_info: https://login.ctf.ptr.si
+value: 10
+type: "standard"
+
+files: 
+  - chall.zip
+  - Dockerfile
+
+flags:
+  - ptr{B4d_c00k1eS}
+
+tags:
+  - web
+  - baby
+
+state: visible
+version: "0.1"

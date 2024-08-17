@@ -1,0 +1,23 @@
+name: "Fixed blog"
+author: "aJuvan"
+category: Web
+
+description: |
+  I've had enough of your sql injections and image loads. Now I only use ORMs and raw text!
+connection_info: https://fixed.ctf.ptr.si
+value: 200
+type: "standard"
+
+files: 
+  - chall.zip
+  - chall/Dockerfile
+
+flags:
+  - ptr{3v3n_ORm5_c4Nt_54vE_yOu_FroM_b4D_c0d1nG}
+
+tags:
+  - web
+  - hard
+
+state: visible
+version: "0.1"

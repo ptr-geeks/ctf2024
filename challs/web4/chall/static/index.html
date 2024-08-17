@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SelfCloud</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Welcome to SelfCloud</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="main">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted"><a href="https://http.cat/">For reference</a></p>
+        </div>
+    </footer>
+</body>
+<script>
+    var main = document.getElementById('main');
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/api/images', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            var files = JSON.parse(xhr.responseText);
+            var html = '<ul>';
+            for (var i = 0; i < files.length; i++) {
+                html += '<li><a href="/data.html#id=' + files[i].id + '">';
+                html += files[i].name;
+                html += '</a></li>';
+            }
+            html += '</ul>';
+            main.innerHTML = html;
+        }
+    };
+    xhr.send();
+</script>
+</html>

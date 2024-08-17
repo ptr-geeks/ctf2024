@@ -1,0 +1,23 @@
+name: "Grand winner"
+author: "aJuvan"
+category: Pwn
+
+description: |
+  Can you enter the hall of winners (again)?
+connection_info: nc 20.8.168.205 13373
+value: 300
+type: "standard"
+
+files: 
+  - chall
+  - Dockerfile
+
+flags:
+  - ptr{y0u_h4Ve_m4s73Red_7h3_st4CK}
+
+tags:
+  - pwn
+  - hard
+
+state: visible
+version: "0.1"

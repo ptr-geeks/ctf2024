@@ -1,0 +1,21 @@
+name: "Crackme"
+author: "aJuvan"
+category: Rev
+
+description: |
+  Crack this password if you can!
+value: 150
+type: "standard"
+
+files: 
+  - chall
+
+flags:
+  - ptr{s0lv3D_yoUr_f1rs7_cR4ckm3}
+
+tags:
+  - rev
+  - medium
+
+state: visible
+version: "0.1"

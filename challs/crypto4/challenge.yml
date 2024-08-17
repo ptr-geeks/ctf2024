@@ -1,0 +1,22 @@
+name: "Lowkey fixed"
+author: "aJuvan"
+category: Crypto
+
+description: |
+  Let's do this properly and switch up `n` this time.
+value: 300
+type: "standard"
+
+files: 
+  - crypto.py
+  - ciphertext.txt
+
+flags:
+  - ptr{RSA_1s_s71ll_gr34T_bu7_g0d_d4MN}
+
+tags:
+  - crypto
+  - hard
+
+state: visible
+version: "0.1"

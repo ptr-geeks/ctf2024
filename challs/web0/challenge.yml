@@ -1,0 +1,21 @@
+name: "Sanity Check"
+author: "aJuvan"
+category: Web
+
+description: |
+  How 2 CTF
+connection_info: https://sanity.ctf.ptr.si
+value: 1
+type: "standard"
+
+files: 
+
+flags:
+  - ptr{M0r3_l1k3_1ns4niTY_ch3Ck}
+
+tags:
+  - web
+  - sanity
+
+state: visible
+version: "0.1"

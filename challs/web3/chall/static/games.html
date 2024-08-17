@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Server browser</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="/"><h1>Servers</h1></a>
+                </div>
+                <div class="col-md-6" style="float:right;text-align:right;">
+                    <h1>Games</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Category</th>
+                            </tr>
+                        </thead>
+                        <tbody id="gamesbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function loadGames() {
+            fetch('/api/games').then(res => {
+                var gamesbody = document.getElementById('gamesbody');
+                gamesbody.innerHTML = '';
+                res.json().then(data => {
+                    data.forEach(game => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${game.name}</td>
+                            <td>${game.desc}</td>
+                            <td>${game.category}</td>
+                        `;
+                        gamesbody.appendChild(row);
+                    });
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            loadGames();
+        });
+    </script>
+</html>

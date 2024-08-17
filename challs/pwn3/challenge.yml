@@ -1,0 +1,23 @@
+name: "Returning winner"
+author: "aJuvan"
+category: Pwn
+
+description: |
+  Can you enter the hall of winners?
+connection_info: nc 20.8.168.205 13372
+value: 150
+type: "standard"
+
+files: 
+  - chall
+  - Dockerfile
+
+flags:
+  - ptr{I_s01Ved_my_fIrs7_ret2win}
+
+tags:
+  - pwn
+  - medium
+
+state: visible
+version: "0.1"

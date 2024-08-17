@@ -1,0 +1,92 @@
+services:
+
+  web0:
+    build: ./web0
+    restart: unless-stopped
+    ports:
+    - 8008:80
+  
+  web1:
+    build: ./web1
+    restart: unless-stopped
+    ports:
+    - 8001:80
+    environment:
+    - "FLAG=ptr{B4d_c00k1eS}"
+  
+  web2:
+    build: ./web2
+    restart: unless-stopped
+    ports:
+    - 8002:80
+  
+  web3:
+    build: ./web3
+    restart: unless-stopped
+    ports:
+    - 8003:8080
+    environment:
+    - "FLAG=ptr{Ev3ry_C7f_n33dS_4n_5ql_1nJ3C7ion}"
+  
+  web4:
+    build: ./web4
+    restart: unless-stopped
+    ports:
+    - 8004:8000
+    environment:
+    - "API_KEY=aldsfkjamosaufvsldifulsakfdoti4uruaovsisaf"
+  
+  web5:
+    build: ./web5
+    restart: unless-stopped
+    ports:
+    - 8005:8000
+    environment:
+    - "FLAG=ptr{pl34sE_us3_l1bcURl_1n57EAd}"
+    - "ADMIN_PASSWORD=sdflkjqworiudaslkajrewoidusfsaof43q"
+
+  web6:
+    build: ./web6
+    restart: unless-stopped
+    ports:
+    - 8006:8000
+    environment:
+    - "FLAG=ptr{3v3n_ORm5_c4Nt_54vE_yOu_FroM_b4D_c0d1nG}"
+
+  web7:
+    build: ./web7
+    restart: unless-stopped
+    ports:
+    - 8007:8000
+  
+
+  pwn1:
+    build: ./pwn1
+    restart: unless-stopped
+    ports:
+    - 13370:1337
+
+  pwn2:
+    build: ./pwn2
+    restart: unless-stopped
+    ports:
+    - 13371:1337
+
+  pwn3:
+    build: ./pwn3
+    restart: unless-stopped
+    ports:
+    - 13372:1337
+    user: "1337:1337"
+
+  pwn4:
+    build: ./pwn4
+    restart: unless-stopped
+    ports:
+    - 13373:1337
+
+  rev4:
+    build: ./rev4
+    restart: unless-stopped
+    ports:
+    - 13374:1337

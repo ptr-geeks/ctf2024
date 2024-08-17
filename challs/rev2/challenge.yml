@@ -1,0 +1,21 @@
+name: "Low blow"
+author: "aJuvan"
+category: Rev
+
+description: |
+  Time to go a bit more low level.
+value: 50
+type: "standard"
+
+files: 
+  - chall
+
+flags:
+  - ptr{N0w_foR_th3_r34l_reVerS1ng}
+
+tags:
+  - rev
+  - easy
+
+state: visible
+version: "0.1"

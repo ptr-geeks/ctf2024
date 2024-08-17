@@ -1,0 +1,23 @@
+name: "/usr/bin/cat"
+author: "aJuvan"
+category: Web
+
+description: |
+  which cat
+connection_info: https://cat.ctf.ptr.si
+value: 100
+type: "standard"
+
+files: 
+  - chall.zip
+  - chall/Dockerfile
+
+flags:
+  - ptr{whY_w0uLD_4nYon3_m4K3_th15_iN_Ru5t}
+
+tags:
+  - web
+  - hard
+
+state: visible
+version: "0.1"

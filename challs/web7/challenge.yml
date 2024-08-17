@@ -1,0 +1,23 @@
+name: "Shorty"
+author: "aJuvan"
+category: Web
+
+description: |
+  Short single file url shortner with a surprisingly long domain name.
+connection_info: https://short.ctf.ptr.si
+value: 300
+type: "standard"
+
+files: 
+  - chall.zip
+  - chall/Dockerfile
+
+flags:
+  - ptr{L0ng_fl4G_FOr_4_5h0r7_Ch4ll3Ng3}
+
+tags:
+  - web
+  - hard
+
+state: visible
+version: "0.1"

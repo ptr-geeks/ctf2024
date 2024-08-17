@@ -1,0 +1,23 @@
+name: "Blog"
+author: "aJuvan"
+category: Web
+
+description: |
+  Let's just make the blog public. What could go wrong?
+connection_info: https://blog.ctf.ptr.si
+value: 150
+type: "standard"
+
+files: 
+  - chall.zip
+  - Dockerfile
+
+flags:
+  - ptr{pl34sE_us3_l1bcURl_1n57EAd}
+
+tags:
+  - web
+  - easy
+
+state: visible
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "Toolbox"
+author: "aJuvan"
+category: Web
+
+description: |
+  I hope you find what you need in this toolbox.
+connection_info: https://toolbox.ctf.ptr.si
+value: 25
+type: "standard"
+
+files: 
+  - chall.zip
+  - chall/Dockerfile
+
+flags:
+  - ptr{5An1t1z3_y0Ur_T00ls}
+
+tags:
+  - web
+  - baby
+
+state: visible
+version: "0.1"

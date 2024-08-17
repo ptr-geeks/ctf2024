@@ -1,0 +1,23 @@
+name: "An amazeing challenge"
+author: "aJuvan"
+category: Rev
+
+description: |
+  Only input, not output.
+connection_info: nc 20.8.168.205 13374
+value: 300
+type: "standard"
+
+files: 
+  - chall
+  - Dockerfile
+
+flags:
+  - ptr{y0u_4r3_trU1y_4m4z1ng}
+
+tags:
+  - rev
+  - hard
+
+state: visible
+version: "0.1"

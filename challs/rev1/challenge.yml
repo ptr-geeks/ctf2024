@@ -1,0 +1,21 @@
+name: "The beginning"
+author: "aJuvan"
+category: Rev
+
+description: |
+  Let's start with something simple.
+value: 10
+type: "standard"
+
+files: 
+  - chall.py
+
+flags:
+  - ptr{l4tS_G3t_sTar7ed}
+
+tags:
+  - rev
+  - baby
+
+state: visible
+version: "0.1"

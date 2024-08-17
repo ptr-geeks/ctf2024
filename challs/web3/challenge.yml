@@ -1,0 +1,23 @@
+name: "Server browser"
+author: "aJuvan"
+category: Web
+
+description: |
+  Does anyone even remember server browsers?
+connection_info: https://browser.ctf.ptr.si
+value: 50
+type: "standard"
+
+files: 
+  - chall.zip
+  - chall/Dockerfile
+
+flags:
+  - ptr{Ev3ry_C7f_n33dS_4n_5ql_1nJ3C7ion}
+
+tags:
+  - web
+  - medium
+
+state: visible
+version: "0.1"

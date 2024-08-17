@@ -1,0 +1,23 @@
+name: "Gambling"
+author: "aJuvan"
+category: Pwn
+
+description: |
+  Can't go wrong with some gambling
+connection_info: nc 20.8.168.205 13370
+value: 10
+type: "standard"
+
+files: 
+  - chall
+  - Dockerfile
+
+flags:
+  - ptr{0verF100o0o0o0o0o0owN}
+
+tags:
+  - pwn
+  - baby
+
+state: visible
+version: "0.1"

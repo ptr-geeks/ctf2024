@@ -1,0 +1,21 @@
+name: "raseC"
+author: "aJuvan"
+category: Crypto
+
+description: |
+  This is just a warmup.
+value: 10
+type: "standard"
+
+files: 
+  - ciphertext.txt
+
+flags:
+  - ptr{th3_m05t_baS1c_C1ph3r}
+
+tags:
+  - crypto
+  - baby
+
+state: visible
+version: "0.1"
